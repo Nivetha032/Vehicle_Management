@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kongu Engineering College</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Navbar */
+    .navbar {
+      background-color: #113b65; 
+      height: 90px;/* Semi-transparent black */
+    }
+
+    .navbar-brand {
+      color: #ffffff; /* White text */
+      font-weight: bold;
+    }
+
+    /* Home Section */
+    .home {
+      position: relative;
+      width: 100%;
+      height: 74vh; /* Full viewport height */
+      overflow: hidden;
+    }
+
+    .video-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+      padding: 20px;
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    .content h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .content h2 {
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-login {
+      background-color: #007bff; /* Blue button */
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-login:hover {
+       /* Darker blue on hover */
+      text-decoration: none;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #004080; /* Dark background color */
+      color: #ffffff;
+      text-align: center;
+      padding: 20px 0;
+    }
+   #a{
+    position :relative;
+    bottom:15px;
+   }
+    .footer a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      
+      <span class="ml-2"><h2 id="a">KEC Transport Office</h2></span>
+    </a>
+  </div>
+</nav>
+
+<section class="home">
+  <img class="video-bg" src="img/bus.jpg" alt="Background Image">
+  <div class="content">                
+    <img src="img/1.png" alt="Logo" height="100px">
+    <h1>Kongu Engineering College</h1>
+    <h2>Transportation Department</h2>
+    <a href="login.html" class="btn-login">Login</a><br><br>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:example@example.com"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-12">
+        <p>&copy; 2024 Kongu Engineering College. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
